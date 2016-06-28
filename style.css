@@ -13,7 +13,6 @@ header
   opacity: .8;
   text-align: left;
   position: fixed;
-  margin-top: 0px;
   top: 0;
   left: 0;
   height: 30px;
@@ -21,15 +20,6 @@ header
   width: 100%;
   border-radius: 0px 0px 0px 40px;
 }
-nav 
-   {
-    margin-top: -20px;
-   
-   }
-   .menu
-   {
-    width: 10%;
-   }
 
 h1
    {
@@ -37,45 +27,40 @@ h1
     text-align: center;
    	font-family: arial, sans-serif;
    	color: blue;
-
    }
 
-   li{  
+nav {  
+display: block;  
+position: absolute;  
+}  
+li{  
 list-style-type: none;  
 display: inline;  
 margin-right: 20px;  
-font-size:25px;
-font-family: arial;  
+font-size:25px  
 }  
- 
+a:link {  
+color: #fff;  
+text-decoration: none;
+padding-right: 10px;  
+}  
+a:hover {  
+color: blue;  
+text-decoration: none;  
+}  
 li > ul {  
 display: none  
 }  
-li:hover ul  {display: block; position: absolute; left:23px;background-color:blue;margin:0;}  
-li:hover ul li a:link{display: block;margin-left:-25px;}  
+li:hover ul {display: block; position: absolute; left:20px;background-color:gray;margin:-5px;border-radius:40px 40px 40px 40px; }  
+li:hover ul li a:link{display: block;margin-left:-18px }  
 
-a
-{   
-    font-family: arial;
-    font-size: 15px;
-    padding: 10px;
-    text-decoration: none;
-}
-   /* unvisited link */
-a:link 
+
+
+
+.menu
 {
-    color: white;
+  width: 60px;
 }
-
-/* visited link */
-a:visited {
-    color: gray;
-}
-a:hover
-{
-    background-color: pink;
-}
-
 .img-1
 	{
 	display: block;
@@ -158,6 +143,3 @@ footer {
   
   width: 30px;
 }
-
-
-
