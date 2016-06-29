@@ -8,6 +8,8 @@ A different font on at least one element
 A few elements styled using a class
 A different color for visited links
 An element styled with an ID*/
+
+
 header
 {
   opacity: .8;
@@ -27,6 +29,11 @@ h1
     text-align: center;
    	font-family: arial, sans-serif;
    	color: blue;
+   }
+
+   h2, h3 
+   {
+    color: red;
    }
 
 nav {  
@@ -148,7 +155,7 @@ footer {
 
 .black {
   background: #a5a5a5;
- 
+
 
 }
 
